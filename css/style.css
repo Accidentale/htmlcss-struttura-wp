@@ -11,34 +11,58 @@
 
 .primo{
     width: 1200px;
-    height: 200px;
-    margin: 0 auto; 
+    height: 200px; 
     background-color:rgb(255, 88, 116);
     margin-top: 20px;
   }
 
   .secondo{
     width: 1200px;
-    height: 400px;
-    margin: 0 auto; 
+    height: 400px; 
     background-color:rgb(191, 255, 88);
     margin-top: 20px;
   }
 
   .terzo{
-    width: 1200px;
-    height: 400px;
-    margin: 0 auto; 
-    background-color:rgb(88, 236, 255);
-    margin-top: 20px;
+       display: flex;
+       flex-direction:column;
+        width: 1200px;
+        height: 400px; 
+        background-color:rgb(88, 236, 255);
+        margin-top: 20px;
     
   }
 
   .quarto{
     width: 1200px;
     height: 100px;
-    margin: 0 auto; 
     background-color:rgb(160, 2, 99);
     margin-top: 20px;
     margin-bottom: 20px;
-  }
+ }
+
+ /* divido classi da id per flex */
+
+ #uno{
+      display:block;
+     height: 80px;
+     border-bottom:5px solid darkblue;
+ }
+
+#due{
+    display: block;
+   width: 300px;
+   border-right:5px solid darkblue;
+}
+
+#tre{
+    display: block;
+    width : 600px;
+    border-right:5px solid darkblue;
+}
+
+#quattro{
+    display: inline-block;
+   height: 400px;
+   border-bottom:5px solid darkblue;
+}
